@@ -1,0 +1,33 @@
+{
+    "name": "amethyst-theme",
+    "description": "An enchanting theme that combines mystery and tranquility, inspired by the beauty of amethyst",
+    "displayer-name": "Amethyst Theme",
+    "Pixyland": "Pixyland",
+    "version": "0.0.0",
+    "icon": "C:\\Uncode\\assets\\amethyst-icon.png",
+    "keywords": [
+      "amethyst",
+      "purple",
+      "dark purple theme",
+      "amethyst theme",
+      "pixyland"
+    ],
+    "engines": {
+      "vscode": "^1.22.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Pixyland",
+          "uiTheme": "vs-dark",
+          "path": "./themes/pixyland/amethyst-theme.json"
+        }
+      ]
+    },
+    "license": "MIT",
+    "dependencies": {
+    }
+  }
